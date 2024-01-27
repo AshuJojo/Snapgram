@@ -8,7 +8,7 @@ import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <main>
+    <main className="flex h-screen">
       <Routes>
         {/* Public Routes */}
         <Route element={<AuthLayout />}>
